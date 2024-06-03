@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#E8EAE3;
+}
+
+header {
+    background-color:#141824;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+    font-family:Cambria;
+}
+h2{
+    color: black;
+    font-family:sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.budget-summary{
+    color: white;
+}
+
+.budget-summary,
+.input-form,
+.transaction-history {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.budget-summary,
+.input-form {
+    background-color:#FA2742;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.input-form input,
+.input-form select,
+.input-form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+}
+
+.input-form button {
+    background-color:black;
+    color: white;
+    font-weight: bold;
+    font-family:sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.transaction-history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transaction-history li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.transaction-history li:last-child {
+    border: none;
+}
